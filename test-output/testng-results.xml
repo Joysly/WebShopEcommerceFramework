@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Connect to the database]]>
+    </line>
+    <line>
+      <![CDATA[Before test]]>
+    </line>
+    <line>
+      <![CDATA[Launch the browser]]>
+    </line>
+    <line>
+      <![CDATA[Login]]>
+    </line>
+    <line>
+      <![CDATA[Heading of the Books page is Books]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Close the browser]]>
+    </line>
+    <line>
+      <![CDATA[After test]]>
+    </line>
+    <line>
+      <![CDATA[DisConnect to the database]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-27T15:34:07 IST" name="Default suite" finished-at="2023-12-27T15:34:25 IST" duration-ms="17846">
+    <groups>
+    </groups>
+    <test started-at="2023-12-27T15:34:07 IST" name="Default test" finished-at="2023-12-27T15:34:25 IST" duration-ms="17846">
+      <class name="DemoWeb.BooksTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:DemoWeb.BooksTest@7c7a06ec]" started-at="2023-12-27T15:34:07 IST" name="beforeSuite" finished-at="2023-12-27T15:34:07 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Connect to the database]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:DemoWeb.BooksTest@7c7a06ec]" started-at="2023-12-27T15:34:07 IST" name="beforeTest" finished-at="2023-12-27T15:34:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:DemoWeb.BooksTest@7c7a06ec]" started-at="2023-12-27T15:34:07 IST" name="beforeClass" finished-at="2023-12-27T15:34:19 IST" duration-ms="11648" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launch the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoWeb.BooksTest@7c7a06ec]" started-at="2023-12-27T15:34:19 IST" name="beforeMethod" finished-at="2023-12-27T15:34:22 IST" duration-ms="3039" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void DemoWeb.BooksTest.books()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="books()[pri:0, instance:DemoWeb.BooksTest@7c7a06ec]" started-at="2023-12-27T15:34:22 IST" name="books" finished-at="2023-12-27T15:34:24 IST" duration-ms="1803" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Heading of the Books page is Books]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- books -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DemoWeb.BooksTest@7c7a06ec]" started-at="2023-12-27T15:34:24 IST" name="afterMethod" finished-at="2023-12-27T15:34:25 IST" duration-ms="984" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:DemoWeb.BooksTest@7c7a06ec]" started-at="2023-12-27T15:34:25 IST" name="afterClass" finished-at="2023-12-27T15:34:25 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:DemoWeb.BooksTest@7c7a06ec]" started-at="2023-12-27T15:34:25 IST" name="afterTest" finished-at="2023-12-27T15:34:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:DemoWeb.BooksTest@7c7a06ec]" started-at="2023-12-27T15:34:25 IST" name="afterSuite" finished-at="2023-12-27T15:34:25 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DisConnect to the database]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- DemoWeb.BooksTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
